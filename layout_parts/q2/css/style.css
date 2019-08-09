@@ -2,4 +2,30 @@
 
 /* 回答はここに書いてね */
 
+.q2_box{
+  width: 900px;
+  padding: 20px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+}
+
+.img_one{
+  padding-right: 20px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.img_two{
+  padding-left: 20px;
+  padding-bottom: 10px;
+  float: right;
+}
+
+.q2_text{
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+}
+
+
 /* 回答はここに書いてね */
