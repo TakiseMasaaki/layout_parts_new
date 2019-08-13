@@ -37,11 +37,15 @@
 }
 .line2>th{
   background-color: #2244aa;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 26px;
   color: #fff;
 }
 
+.line2>td{
+  font-size: 16px;
+  line-height: 22px;
+}
 
 
 
