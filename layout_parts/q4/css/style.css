@@ -1,14 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
 .q4_box{
+  width: 100%;
   background-color: #ecf1f2;
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.up_box{
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
 }
 
 .up_box >div{
   padding: 20px;
+  display: table-cell;
 }
 
 .f1{
@@ -23,8 +31,15 @@
   background-color: #b6d8ed;
 }
 
+.down_box{
+  width: 100%;
+  box-sizing: border-box;
+  display: table;
+}
+
 .down_box >div{
   padding: 20px;
+  display: table-cell;
 }
 
 .b2{
