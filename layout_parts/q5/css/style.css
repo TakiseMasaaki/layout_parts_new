@@ -2,4 +2,52 @@
 
 /* 回答はここに書いてね */
 
+.q5_box{
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+}
+
+.q5_box > div{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: auto;
+}
+
+.box1{
+  background-color: #ffefd3;
+}
+
+.box2{
+  background-color: #7084de;
+}
+
+.box3{
+  background-color: #d0ecea;
+}
+
+.box4{
+  background-color: #8b7a5e;
+}
+
+.box5{
+  background-color: #9fd6d2;
+}
+
+.box6{
+  background-color: #fffee4;
+}
+
+.box7{
+  background-color: #deae70;
+}
+
+.box8{
+  background-color: #de70cf;
+}
+
+.box9{
+  background-color: #2b60a3;
+}
 /* 回答はここに書いてね */
