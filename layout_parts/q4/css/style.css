@@ -12,6 +12,7 @@
   width: 100%;
   display: table;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .up_box >div{
@@ -21,6 +22,7 @@
 
 .f1{
   background-color: #fdc8b8;
+  width: 100px;
 }
 
 .b1{
@@ -29,12 +31,15 @@
 
 .f2{
   background-color: #b6d8ed;
+  width: 100px;
 }
 
 .down_box{
   width: 100%;
   box-sizing: border-box;
   display: table;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .down_box >div{
@@ -52,6 +57,7 @@
 
 .f3{
   background-color: #8fdcad;
+  width: 500px;
 }
 
 /* 回答はここに書いてね */
