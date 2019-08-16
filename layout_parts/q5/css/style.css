@@ -74,6 +74,16 @@
   z-index: 8;
 }
 
+.box8:after{
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  content:"";
+}
+
 .q5_box >div.box9{
   background-color: #2b60a3;
   position: fixed;
