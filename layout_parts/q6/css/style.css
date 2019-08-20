@@ -46,4 +46,17 @@
   padding: 10px;
   background-color: #fff;
 }
+
+.q6_2_position1{
+  position: relative;
+}
+
+.q6_2_position1_text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 /* 回答はここに書いてね */
