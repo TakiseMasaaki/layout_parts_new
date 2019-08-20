@@ -35,4 +35,15 @@
   padding: 10px;
   background-color: #fff;
 }
+
+.q6_2_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6_2_flex_text{
+  padding: 10px;
+  background-color: #fff;
+}
 /* 回答はここに書いてね */
