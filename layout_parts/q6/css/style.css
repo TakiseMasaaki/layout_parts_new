@@ -2,4 +2,20 @@
 
 /* 回答はここに書いてね */
 
+.q6_1{
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.q6_1_left{
+  text-align: center !important;
+}
+
+.q6_1_left_text{
+  display: inline-block;
+}
+
 /* 回答はここに書いてね */
