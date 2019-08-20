@@ -2,6 +2,7 @@
 
 /* 回答はここに書いてね */
 
+/* Q6-1 */
 .q6_1{
   background-color: #e6f2ff;
   width: 90px;
@@ -18,4 +19,20 @@
   display: inline-block;
 }
 
+/* Q6-2 */
+.q6_2_table{
+  display: table;
+}
+
+.q6_2_table_box{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q6_2_table_text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
 /* 回答はここに書いてね */
