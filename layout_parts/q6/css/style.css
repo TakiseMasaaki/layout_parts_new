@@ -59,4 +59,15 @@
   right: 0;
   margin: auto;
 }
+
+.q6_2_position2{
+  position: relative;
+}
+
+.q6_2_position2_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 /* 回答はここに書いてね */
