@@ -1,5 +1,55 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* q8-1 */
+.q8_1_btn{
+  display: inline-block;
+}
 
+.small{
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.middle{
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.large{
+  font-size: 24px;
+  line-height: 38px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+
+.common{
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error{
+  background-color: #ff4081;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.disabled{
+  background-color: #e5e5e5;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.shadow{
+  color: #222;
+  margin-left: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
+  cursor: pointer;
+}
 /* 回答はここに書いてね */
