@@ -59,4 +59,16 @@
 .q7_3_left{
   margin: 0;
 }
+/* q7-4 */
+.q7_4_box{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.q7_4_left,.q7_4_right{
+  width: 225px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
