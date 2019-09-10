@@ -51,6 +51,15 @@
   border: 10px solid #ecf1f2;
   border-top-color: #00bcd4;
   border-radius: 50%;
+  animation: anime 1.1s linear infinite;
 }
 
+@keyframes anime{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */
