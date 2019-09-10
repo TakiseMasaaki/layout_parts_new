@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+/* Q9-1 */
 .q9_1{
   position: relative;
   width: 500px;
@@ -41,6 +41,16 @@
 
 .q9_1:hover .text_box{
   bottom: 0;
+}
+
+/* Q9-2 */
+.animation{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  border-radius: 50%;
 }
 
 /* 回答はここに書いてね */
