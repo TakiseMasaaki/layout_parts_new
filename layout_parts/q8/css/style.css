@@ -52,4 +52,263 @@
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
   cursor: pointer;
 }
+/* q8-2 */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q8_2{
+  background-color: #ecf1f2;
+  padding: 20px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.label{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.label:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.form_title{
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  padding-right: 10px;
+  display: inline-block;
+  background-color: #ecf1f2;
+}
+/* -----左側----- */
+.red{
+  color: #ff0000;
+}
+
+.q8_2_left{
+  float: left;
+  width: 300px;
+}
+
+.q8_2_left_box{
+  list-style: none;
+}
+
+.q8_2_left_box>li{
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.q8_2_left_box>li:first-child{
+  margin-top: 0;
+}
+
+.q8_2_left_box>li:last-child{
+  line-height: 100%;
+}
+
+.left_size{
+  width: 100px;
+  text-align: right;
+  float: left;
+}
+
+.right_size{
+  width: 180px;
+  float: right;
+}
+
+.name_box{
+  box-sizing: border-box;
+}
+
+.box_line{
+  border: none;
+  box-sizing: border-box;
+  width: 180px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 12px;
+}
+
+.box_size{
+  height: 22px;
+}
+.sex_label{
+  cursor: pointer;
+}
+
+.sex_box{
+  width: 14px;
+  height: 14px;
+  border-style: solid;
+  border-width: 1px;
+  display: none;
+}
+
+.sex_text{
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  display: inline-block;
+  line-height: 16px;
+}
+
+.sex_text:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+}
+
+.select{
+  position: relative;
+}
+
+.select_box{
+  width: 100%;
+  line-height: 12px;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.select:after{
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.twenty{
+  text-align: right;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+}
+
+.twenty_label{
+  position: relative;
+}
+
+.twenty_box{
+  display: none;
+}
+
+.twenty_text{
+  padding-left: 24px;
+}
+
+.twenty_text:before{
+  position: absolute;
+  top:50%;
+  left: 0;
+  margin-top: -9px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+}
+
+.q8_2_btn{
+  margin-top: 20px;
+  text-align: right;
+}
+
+.btn{
+  background-color: #00bcd4;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn:active{
+  filter: invert;
+}
+
+/* -----右側----- */
+.q8_2_right{
+  float: right;
+  width: 380px;
+}
+
+.textarea{
+  width: 100%;
+  height:203px;
+  padding: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+/* チェックした場合 */
+
+.name_box:focus,.mail_box:focus,.tel_box:focus,.textarea:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.sex_box:checked + .sex_text:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00BCD4;
+  content: "";
+}
+
+.twenty_box:checked + .twenty_text:after{
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.btn:active{
+  background-color: #fff;
+  color: #00bcd4;
+}
 /* 回答はここに書いてね */

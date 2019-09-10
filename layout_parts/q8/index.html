@@ -99,7 +99,66 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="q8_2">
+              <div class="label">
+                  <p class="form_title">Form Exercise</p>
+              </div>
+              <div class="q8_2_down clearfix">
+                <div class="q8_2_left">
+                  <ul class="q8_2_left_box">
+                    <li class="clearfix">
+                      <p class="name left_size">名前<span class="red">*</span></p>
+                      <input class="name_box right_size box_line" type="text" name="name" required>
+                    </li>
+                    <li class="clearfix">                    
+                      <p class="gebder left_size">性別</p>
+                      <div class="right_size box_size">
+                        <label class="sex_label">
+                          <input class="sex_box" type="radio" name="gender">
+                          <span class="sex_text">男性</span>
+                        </label>
+                        <label class="sex_label">
+                          <input class="sex_box" type="radio" name="gender">
+                          <span class="sex_text">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="from left_size">出身</p>
+                      <div class="select right_size box_size">
+                        <select class="select_box" name="from">
+                          <option>東京</option>
+                          <option>埼玉</option>
+                          <option>千葉</option>
+                          <option>神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="mail left_size">Eメール<span class="red">*</span></p>
+                      <input class="mail_box right_size box_line" type="email" name="mail" placeholder="ex) hoge@gmail.com" required>
+                    </li>
+                    <li class="clearfix">
+                      <p class="phone left_size">電話番号</p>
+                      <input class="tel_box right_size box_line" type="text" name="tel" placeholder="ex) 08012345678">
+                    </li>
+                    <li class="clearfix">
+                      <div class="right_size twenty">
+                        <label class="twenty_label">
+                          <input type="checkbox" name="twenty" class="twenty_box"><span class="twenty_text">20歳以上です</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="q8_2_btn">
+                    <button class="btn" type="submit">送信</button>
+                  </div>
+                </div>
+                <div class="q8_2_right">
+                  <textarea name="kanso" placeholder="何かあれば入力してください。" class="textarea"></textarea>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
