@@ -9,13 +9,13 @@
   margin: 0 auto;
 }
 
-.img_one{
+.img_left{
   padding-right: 20px;
   padding-bottom: 10px;
   float: left;
 }
 
-.img_two{
+.img_right{
   padding-left: 20px;
   padding-bottom: 10px;
   float: right;
