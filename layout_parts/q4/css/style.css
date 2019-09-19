@@ -2,60 +2,50 @@
 
 /* 回答はここに書いてね */
 .q4_box{
-  width: 100%;
   background-color: #ecf1f2;
   padding: 20px;
   box-sizing: border-box;
 }
 
-.up_box{
-  width: 100%;
+.q4_bar{
+  width:100%;
   display: table;
   box-sizing: border-box;
   text-align: center;
 }
 
-.up_box >div{
+.q4_bar:last-child{
+  margin-top: 20px;
+}
+
+.q4_cell{
   padding: 20px;
   display: table-cell;
 }
 
-.f1{
+.pink{
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.b1{
+.purple{
   background-color: #e0abd9;
 }
 
-.f2{
+.blue{
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.down_box{
-  width: 100%;
-  box-sizing: border-box;
-  display: table;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.down_box >div{
-  padding: 20px;
-  display: table-cell;
-}
-
-.b2{
+.yellow{
   background-color: #e5d32e;
 }
 
-.b3{
+.red{
   background-color: #ec8f9a;
 }
 
-.f3{
+.green{
   background-color: #8fdcad;
   width: 500px;
 }
