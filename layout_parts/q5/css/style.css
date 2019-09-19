@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.q5_box > div{
+.q5_content {
   width: 100px;
   height: 100px;
   text-align: center;
